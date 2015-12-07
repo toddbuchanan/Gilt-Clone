@@ -2,8 +2,8 @@ $gold: #956E29;
 .card {
 	padding-top: 10px;
 	padding-bottom: 10px;
-	background: #f1f1f1;
-	border: 1px solid #e6e6e6;
+	background: #232323;
+	border: 10px solid #fff;
 
 	h4 {
 		color: $gold;
@@ -14,9 +14,10 @@ $gold: #956E29;
 		}
 	}
 	p {
-		color: #111;
+		color: #efefef;
 
 		&:last-child {
+			font-size: 85%;
 			font-weight: 700;
 		}
 	}
