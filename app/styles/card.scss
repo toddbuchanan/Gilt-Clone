@@ -1,14 +1,15 @@
+$gold: #956E29;
 .card {
 	padding-top: 10px;
 	padding-bottom: 10px;
 	background: #eee;
 
 	h4 {
-		color: #333;
+		color: $gold;
 		text-transform: uppercase;
 
 		&:hover {
-			color: #111;
+			color: darken($gold, 5%);
 		}
 	}
 	p {
@@ -17,5 +18,9 @@
 		&:last-child {
 			font-weight: 700;
 		}
+	}
+	.category {
+		color: $gold;
+		text-transform: uppercase;
 	}
 }
