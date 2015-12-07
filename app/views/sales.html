@@ -1,0 +1,12 @@
+<h1>{{ getRoute() }} Sales</h1>
+<div class="row cards">
+	<div ng-repeat="item in list.sales" class="col-sm-4 card product-card">
+		<!-- <img ng-src="{{ item.image_urls.url }}" class="img-responsive"/> -->
+		<div ng-repeat="image in item.image_urls['366x186']">
+			<img ng-src="{{ image.url }}" class="img-responsive"/>
+		</div>
+		<h4>{{ item.name }}</h4>
+		<p>{{ item.description }}</p>
+		<p>Sale ends: {{ item.ends | date }}</p>
+	</div>
+</div>
