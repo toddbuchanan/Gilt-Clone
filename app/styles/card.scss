@@ -15,14 +15,19 @@ $gold: #956E29;
 	}
 	p {
 		color: #fff;
-
-		&:last-child {
-			font-size: 85%;
-			font-weight: 700;
-		}
 	}
 	.category {
-		color: $gold;
+		float: left;
+		padding: 3px 10px;
+		margin-bottom: 1em;
+		color: #fff;
+		font-size: 75%;
+		background: $gold;
 		text-transform: uppercase;
+		border-radius: 10px;
+	}
+	.sale-end {
+		float: left;
+		clear: both;
 	}
 }
