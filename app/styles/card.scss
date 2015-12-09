@@ -2,7 +2,7 @@ $gold: #956E29;
 .card {
 	padding-top: 15px;
 	padding-bottom: 10px;
-	background: #232323;
+	background: #fff;
 	border: 10px solid #fff;
 
 	h4 {
@@ -14,7 +14,7 @@ $gold: #956E29;
 		}
 	}
 	p {
-		color: #efefef;
+		color: #333;
 
 		&:last-child {
 			font-size: 85%;
@@ -22,8 +22,7 @@ $gold: #956E29;
 		}
 	}
 	.category {
-		color: red;
+		color: $gold;
 		text-transform: uppercase;
-		text-decoration: underline;
 	}
 }
